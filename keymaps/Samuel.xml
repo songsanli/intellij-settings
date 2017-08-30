@@ -1,7 +1,15 @@
-<keymap version="1" name="Mac OS X 10.5+ - Samuel" parent="Mac OS X 10.5+">
+<keymap version="1" name="Samuel" parent="Mac OS X 10.5+">
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateRunToolWindow" />
@@ -15,8 +23,14 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="shift space" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
   <action id="CompareTwoFiles" />
   <action id="DashLauncherAction" />
@@ -35,8 +49,14 @@
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+  </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
@@ -106,6 +126,9 @@
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta home" />
     <keyboard-shortcut first-keystroke="shift alt comma" />
+  </action>
+  <action id="EditorToggleStickySelection">
+    <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="EditorUpWithSelection">
     <keyboard-shortcut first-keystroke="shift up" />
