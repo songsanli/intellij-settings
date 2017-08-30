@@ -1,0 +1,18 @@
+<application>
+  <component name="PostfixTemplatesSettings">
+    <option name="langDisabledTemplates">
+      <disabled-postfix-templates lang="JavaScript">
+        <value>
+          <set>
+            <option value=".else" />
+            <option value=".if" />
+            <option value=".log" />
+            <option value=".notnull" />
+            <option value=".null" />
+          </set>
+        </value>
+      </disabled-postfix-templates>
+    </option>
+    <option name="postfixTemplatesEnabled" value="false" />
+  </component>
+</application>

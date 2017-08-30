@@ -1,0 +1,38 @@
+<scheme name="Darcula Samuel Port" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2017-08-30T11:03:50</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2017.2.2.0.0</property>
+    <property name="modified">2017-08-30T11:03:53</property>
+    <property name="originalScheme">Darcula Extend</property>
+  </metaInfo>
+  <colors>
+    <option name="SELECTION_BACKGROUND" value="1d4269" />
+    <option name="SELECTION_FOREGROUND" value="c4cbcd" />
+  </colors>
+  <attributes>
+    <option name="DEFAULT_BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+      </value>
+    </option>
+    <option name="DEFAULT_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TODO_DEFAULT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="a8c023" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
