@@ -176,6 +176,10 @@
   </action>
   <action id="InsertLiveTemplate" />
   <action id="NextProjectWindow" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="o" />
+  </action>
   <action id="ParameterInfo" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
