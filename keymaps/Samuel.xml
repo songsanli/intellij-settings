@@ -31,9 +31,7 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
-  <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="shift space" />
-  </action>
+  <action id="CodeCompletion" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
     <keyboard-shortcut first-keystroke="meta alt divide" />
@@ -148,6 +146,9 @@
   <action id="EditorUpWithSelection">
     <keyboard-shortcut first-keystroke="shift up" />
     <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="ExpandLiveTemplateCustom">
+    <keyboard-shortcut first-keystroke="shift space" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
